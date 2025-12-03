@@ -1,0 +1,166 @@
+# -------------------------
+# OS / Editor / IDE
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+Icon?
+
+# Linux
+*~
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Python / Virtual envs
+# -------------------------
+# Virtual environments
+venv/
+env/
+.venv/
+.pyenv/
+pipenv-venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Package managers / locks
+# -------------------------
+poetry.lock
+Pipfile.lock
+pip-wheel-metadata/
+
+# -------------------------
+# Data / datasets / caches
+# -------------------------
+# Raw/processed data - never commit datasets
+# data/
+# datasets/
+# raw_data/
+# processed_data/
+# */raw/
+# */processed/
+
+# Common dataset files (big)
+# *.csv
+# *.tsv
+# *.parquet
+# *.h5
+# *.hdf5
+# *.npz
+# *.npy
+
+# Cache folders for dataset libs
+.cache/
+.cache-dir/
+huggingface/
+hf_cache/
+dataset_cache/
+tensorflow_datasets/
+
+# -------------------------
+# Model artifacts / checkpoints / logs
+# -------------------------
+# PyTorch / TensorFlow / Keras checkpoints
+checkpoints/
+checkpoints_*/
+**/checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.h5  # Note: h5 used for datasets too; decide per project
+*.weights
+
+# Saved models / exports
+models/
+saved_models/
+export/
+onnx_models/
+
+# Training logs, tensorboard
+logs/
+tensorboard/
+tb_logs/
+runs/
+events.out.tfevents.*
+mlruns/
+
+# -------------------------
+# MLflow / DVC / tracking
+# -------------------------
+mlruns/
+.dvc/
+dvc.lock
+.dvcignore
+
+
+# -------------------------
+# Secrets / keys / config
+# -------------------------
+# Environment files and secrets
+.env
+.env.*
+*.pem
+*.key
+credentials/
+secrets/
+config/*.yaml
+config/*.yml
+
+# -------------------------
+# Logs and temporary files
+# -------------------------
+*.log
+*.out
+*.err
+tmp/
+temp/
+*.tmp
+
+# -------------------------
+# Build & CI
+# -------------------------
+# Docker
+docker-compose.override.yml
+**/Dockerfile.dev
+
+# CircleCI, GitHub actions artifacts
+.github/workflows/*.local.yml
+*.cache
+
+# -------------------------
+# Misc binaries / OS-specific big files
+# -------------------------
+*.so
+*.dylib
+*.dll
+*.exe
+
+# -------------------------
+# Add project-specific patterns below
+# -------------------------
+# e.g.
+# /data/external_big_dataset/
+# /models/production_best.pth
+
+
+
+# my practice files
+practice.ipynb
