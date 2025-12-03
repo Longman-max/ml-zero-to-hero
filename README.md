@@ -1,36 +1,27 @@
-# mlcode
+# Machine Learning: Zero to Hero
 
-A repository for storing machine learning code examples.
+This repository contains a collection of machine learning implementations and experiments. The Jupyter notebooks are located in the [src](src/) directory, and relevant datasets are in the [datasets](datasets/) directory.
 
-## Overview
-This repository contains simple, reproducible examples covering different areas of machine learning.  
-It is intended as a reference for learning, experimentation, and demonstration.
+---
 
-## Structure
-- `datasets/` – sample datasets for experiments  
-- `notebooks/` – Jupyter notebooks with ML examples  
-- `src/` – organized Python scripts for various ML tasks  
+**Linear Regression: Predicting Exam Scores**
 
-## Getting Started
-Clone the repository:
-```bash
-git clone https://github.com/Longman-max/mlcode.git
-cd mlcode
-````
+We start with the "Hello World" of machine learning: Linear Regression. In this project, we analyze the relationship between study hours and exam scores. We implement a model to fit a line through the data, observing a strong positive correlation where every additional hour of study adds approximately 11.29 points to the score. We also explore error metrics like MSE and RMSE to evaluate our model's performance.
 
-Install dependencies:
+- [Jupyter notebook files](src/regression/linear_regression.ipynb)
 
-```bash
-pip install -r requirements.txt
-```
+---
 
-## Examples
+**Multivariate Regression: Real Estate Price Prediction**
 
-* `src/regression/linear_regression.py` – basic linear regression
-* `src/classification/logistic_regression.py` – simple classifier
-* `src/clustering/kmeans.py` – clustering example
-* `src/deep_learning/neural_net.py` – minimal neural network
+We expand our Linear Regression model to handle multiple features. Instead of a simple line, we fit a plane in 3D space to predict house prices based on size (sq ft) and the number of bedrooms. This introduces the concept of weights for different features and how they combine to form a prediction.
 
-## License
+- [Jupyter notebook files](src/regression/linear_regression.ipynb)
 
-This project is licensed under the MIT License.
+---
+
+Ongoing...
+
+**License**
+
+MIT
