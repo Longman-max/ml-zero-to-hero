@@ -160,6 +160,10 @@ docker-compose.override.yml
 # /data/external_big_dataset/
 # /models/production_best.pth
 
+notebooks/
+# Ignore all README files inside src subdirectories
+src/**/README*
+
 
 
 # my practice files
