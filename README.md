@@ -16,7 +16,7 @@ We start with the "Hello World" of machine learning. In this project, we analyze
 
 We expand our Linear Regression model to handle multiple features. Instead of a simple line, we fit a plane in 3D space to predict house prices based on size (sq ft) and the number of bedrooms. This introduces the concept of weights for different features and how they combine to form a prediction.
 
-- [Jupyter notebook files](src/regression/real_estate_price.ipynb)
+- [Jupyter notebook files](src/regression/linear_regression.ipynb)
 
 ---
 
@@ -24,7 +24,7 @@ We expand our Linear Regression model to handle multiple features. Instead of a 
 
 In this business-centric example, we apply Multivariate Regression to optimize marketing strategies. By analyzing historical data on TV and Radio advertising budgets, we build a model to predict future Sales figures. We interpret the model coefficients to understand the return on investment for specific advertising channels and use the R-squared ($R^2$) score to determine how well our model explains the variance in sales.
 
-- [Jupyter notebook files](src/regression/marketing_roi.ipynb)
+- [Jupyter notebook files](src/regression/linear_regression.ipynb)
 
 ---
 
