@@ -36,6 +36,16 @@ In this business-centric example, we apply Multivariate Regression to optimize m
 
 ---
 
+## Classification
+
+**Implementing the Perceptron Algorithm (Binary Classification)**
+A Perceptron is the foundational component of neural network and performs binary classification by separating data points with a linear boundary. This project focuses on implementing the core logic of this model, which uses a linear combination of features to make a decision (e.g., Happy/Sad). We explore the Perceptron Trick, the training loop, and the final decision boundary.
+
+- [See manual code](src/classification/perceptron_manual.ipynb)
+- [See main code](src/classification/alien_perceptron.ipynb)
+
+---
+
 Ongoing...
 
 **License**
