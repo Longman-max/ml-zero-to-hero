@@ -2,7 +2,9 @@
 
 This repository contains a collection of machine learning implementations and experiments. The Jupyter notebooks are located in the [src](src/) directory, and relevant datasets are in the [datasets](datasets/) directory.
 
-## Linear Regression
+## Regression
+
+### Linear Regression
 
 **Predicting Exam Scores (Simple Linear Regression)**
 
@@ -39,10 +41,26 @@ In this business-centric example, we apply Multivariate Regression to optimize m
 ## Classification
 
 **Implementing the Perceptron Algorithm (Binary Classification)**
-A Perceptron is the foundational component of neural network and performs binary classification by separating data points with a linear boundary. This project focuses on implementing the core logic of this model, which uses a linear combination of features to make a decision (e.g., Happy/Sad). We explore the Perceptron Trick, the training loop, and the final decision boundary.
+
+A Perceptron is the foundational component of neural networks and performs binary classification by separating data points with a linear boundary. This project focuses on implementing the core logic of this model, which uses a linear combination of features to make a decision (e.g., Happy/Sad). We explore the Perceptron Trick, the training loop, and the final decision boundary.
 
 - [See manual code](src/classification/perceptron_manual.ipynb)
 - [See main code](src/classification/alien_perceptron.ipynb)
+
+---
+
+**Sentiment Analysis with Logistic Regression (Probabilistic Classification)**
+
+Logistic Regression moves beyond the "hard" decisions of the Perceptron by introducing probabilities. By applying the Sigmoid function to a linear combination of features, the model predicts the likelihood of an input belonging to a specific class (0 to 1). This project covers the manual implementation of the Logistic Trick, Log Loss (Cross-Entropy), and a comparison with `scikit-learn`'s optimized implementation.
+
+
+
+[Image of Sigmoid function graph]
+
+
+![Sigmoid Function](images/sigmoid_function.png)
+
+- [See code](src/classification/logistic_regression_manual.ipynb)
 
 ---
 
