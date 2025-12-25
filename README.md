@@ -53,14 +53,25 @@ A Perceptron is the foundational component of neural networks and performs binar
 
 Logistic Regression moves beyond the "hard" decisions of the Perceptron by introducing probabilities. By applying the Sigmoid function to a linear combination of features, the model predicts the likelihood of an input belonging to a specific class (0 to 1). This project covers the manual implementation of the Logistic Trick, Log Loss (Cross-Entropy), and a comparison with `scikit-learn`'s optimized implementation.
 
-
-
-[Image of Sigmoid function graph]
-
-
 ![Sigmoid Function](images/sigmoid_function.png)
 
 - [See code](src/classification/logistic_regression_manual.ipynb)
+
+---
+
+**Sentiment Analysis: Classifying IMDB Movie Reviews**
+
+Applying Logistic Regression to a real-world dataset of 50,000 IMDB movie reviews. We use `CountVectorizer` to transform text into numerical features and identify the most influential words for positive and negative sentiment. The model allows us to predict the probability of a review being positive and identifies the "most extreme" reviews in the dataset.
+
+- [See code](src/classification/sentiment_analysis.ipynb)
+
+---
+
+**Logistic Regression with Scikit-Learn**
+
+This project demonstrates the use of the industry-standard `scikit-learn` library to build a classification model. We focus on training the model on a binary dataset, extracting coefficients and intercepts, and visualizing the decision boundary that separates the classes.
+
+- [See code](src/classification/logistic_regression_scikit.ipynb)
 
 ---
 
